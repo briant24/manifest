@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+        <remote name="wrdn"
+                fetch="https://github.com/Wrdn28" />
+
  <!-- Trees -->
  <project path="device/asus/X01AD" name="Wrdn28/android_device_asus_X01AD.git" remote="github" revision="eleven" />
  <project path="vendor/asus/X01AD" name="Wrdn28/vendor_asus_X01AD.git" remote="github" revision="R-latest
