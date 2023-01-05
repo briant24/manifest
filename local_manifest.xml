@@ -5,8 +5,8 @@
                 fetch="https://github.com/Wrdn28" />
 
  <!-- Trees -->
- <project path="device/asus/X01AD" name="Wrdn28/android_device_asus_X01AD.git" remote="github" revision="eleven" />
- <project path="vendor/asus/X01AD" name="Wrdn28/vendor_asus_X01AD.git" remote="github" revision="R-latest
- <project path="kernel/asus/X01AD" name="Wrdn28/android_kernel_asus_X01AD" remote="github" revision="lineage-18.1" />
+ <project path="device/asus/X01AD" name="Wrdn28/android_device_asus_X01AD.git" remote="wrdn" revision="eleven" />
+ <project path="vendor/asus/X01AD" name="Wrdn28/vendor_asus_X01AD.git" remote="wrdn" revision="R-latest
+ <project path="kernel/asus/X01AD" name="Wrdn28/android_kernel_asus_X01AD" remote="wrdn" revision="lineage-18.1" />
  
 </manifest>
