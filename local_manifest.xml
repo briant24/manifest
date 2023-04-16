@@ -37,7 +37,8 @@
                      revision="thirteen" />
             <project path="hardware/qcom-caf/msm8996/media"
                      name="hardware_qcom-caf_msm8996_media"
-                     remote="hals" revision="thirteen" /> 
+                     remote="hals" 
+                     revision="thirteen" /> 
             <project path="hardware/google/camera"
                      name="android_hardware_google_camera"
                      remote="wrdn"
