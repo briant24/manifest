@@ -43,7 +43,7 @@
                      remote="wrdn"
                      revision="thirteen" />
 
-            <!-- remove packages -->         
+            <!-- Remove Packages -->         
             <remove-project name="android_hardware_qcom_display"/>
             <remove-project name="android_hardware_qcom_media"/>
             <remove-project name="android_hardware_qcom_audio"/>
