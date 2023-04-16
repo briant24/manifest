@@ -33,7 +33,7 @@
             <remove-project name="android_hardware_qcom_display"/>
             <remove-project name="android_hardware_qcom_media"/>
             <remove-project name="android_hardware_qcom_audio"/>
-         
+            <remove-project name="platform/hardware/google/camera"/>       
             <!-- Clang -->
             <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="cl" revision="master" />
 
