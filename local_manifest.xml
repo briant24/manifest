@@ -7,8 +7,6 @@
              fetch="https://github.com/Wrdn28" />
      <remote name="cl"
              fetch="https://gitlab.com/Amritorock" />
-     <remote name="zain"
-             fetch="https://github.com/Assunzain" />
      <remote name="hals"
              fetch="https://github.com/PixelExperience" />
 
@@ -45,7 +43,7 @@
                      remote="hals" 
                      revision="thirteen" />
             <project path="hardware/google/camera"
-                     name="android_hardware_google_camera"
+                     name="X01AD_hardware_google_camera"
                      remote="wrdn"
                      revision="thirteen" />
 
