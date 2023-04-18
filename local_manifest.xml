@@ -16,7 +16,7 @@
             <project path="device/asus/X01AD"
                      name="android_device_asus_X01AD"
                      remote="wrdn"
-                     revision="superior-13" />
+                     revision="OctaviOS-staging" />
             <project path="vendor/asus/X01AD"
                      name="vendor_asus_X01AD_A13"
                      remote="zain"
