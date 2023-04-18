@@ -18,8 +18,8 @@
                      remote="wrdn"
                      revision="OctaviOS-staging" />
             <project path="vendor/asus/X01AD"
-                     name="vendor_asus_X01AD_A13"
-                     remote="zain"
+                     name="android_vendor_asus_X01AD"
+                     remote="wrdn"
                      revision="main" />
             <project path="kernel/asus/X01AD"
                      name="android_kernel_asus_X01AD"
