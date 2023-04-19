@@ -45,7 +45,7 @@
             <project path="hardware/google/camera"
                      name="X01AD_hardware_google_camera"
                      remote="wrdn"
-                     revision="thirteen" />
+                     revision="master" />
 
             <!-- Clang -->
             <project path="prebuilts/clang/host/linux-x86/clang-r450784d"
