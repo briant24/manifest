@@ -15,6 +15,11 @@
                      name="hardware_qcom-caf_wlan"
                      remote="hals"
                      revision="thirteen" />
+
+            <project path="hardware/google/camera"
+                     name="X01AD_hardware_google_camera"
+                     remote="wrdn"
+                     revision="master" />
             <!-- Trees -->
             <project path="device/asus/X01AD"
                      name="android_device_asus_X01AD"
