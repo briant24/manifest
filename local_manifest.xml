@@ -23,30 +23,11 @@
                      name="android_kernel_asus_X01AD"
                      remote="wrdn"
                      revision="terece" />
-
-            <!-- HALs -->
-            <remove-project name="android_hardware_qcom_display"/>
-            <remove-project name="android_hardware_qcom_audio"/>
-            <remove-project name="android_hardware_qcom_media"/>
-            <remove-project name="platform/hardware/google/camera"/>
-            <remove-project name="hardware/qcom-caf/msm8998/display"/>
-
-            <project path="hardware/qcom-caf/msm8996/display"
-                     name="hardware_qcom-caf_msm8996_display" 
+            <remove-project name="android_hardware_qcom_wlan" />
+            <project path="hardware/qcom-caf/wlan"
+                     name="hardware_qcom-caf_wlan"
                      remote="hals"
                      revision="thirteen" />
-            <project path="hardware/qcom-caf/msm8996/audio"
-                     name="hardware_qcom-caf_msm8996_audio"
-                     remote="hals"
-                     revision="thirteen" />
-            <project path="hardware/qcom-caf/msm8996/media"
-                     name="hardware_qcom-caf_msm8996_media"
-                     remote="hals" 
-                     revision="thirteen" />
-            <project path="hardware/google/camera"
-                     name="X01AD_hardware_google_camera"
-                     remote="wrdn"
-                     revision="master" />
 
             <!-- Clang -->
             <project path="prebuilts/clang/host/linux-x86/clang-r450784d"
