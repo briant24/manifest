@@ -46,7 +46,7 @@
                      revision="master"
                      clone-depth="1"/> -->
 
-            <project path="prebuilts/clang/host/linux-x86/clang-r450784d"
+            <project path="prebuilts/clang/host/linux-x86/clang-proton"
                      name="proton-clang"
                      remote="cl2"
                      revision="master"
