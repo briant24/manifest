@@ -11,6 +11,8 @@
              fetch="https://github.com/PixelExperience" />
      <remote name="z"
              fetch="https://github.com/Assunzain" />
+     <remote name="cl2"
+             fetch="https://github.com/kdrag0n"/>
 
             <!-- Replacement -->
             <remove-project name="android_hardware_qcom_wlan" />
@@ -37,11 +39,17 @@
                      remote="z"
                      revision="GreenLight-non-oc" />
 
-            <!-- Clang -->
+            <!-- Clang 
             <project path="prebuilts/clang/host/linux-x86/clang-r450784d"
                      name="clang-r450784d"
                      remote="cl"
                      revision="master"
-                     clone-depth="1"/>
+                     clone-depth="1"/> -->
+
+            <project path="prebuilts/clang/host/linux-x86/clang-r450784d"
+                     name="proton-clang"
+                     remote="cl2"
+                     revision="master"
+                     clone-depth="1"/> 
 
 </manifest>
