@@ -29,7 +29,7 @@
             <project path="vendor/asus/X01AD"
                      name="android_vendor_asus_X01AD"
                      remote="wrdn"
-                     revision="master" />
+                     revision="octavi-13" />
             <project path="kernel/asus/X01AD"
                      name="android_kernel_asus_X01AD"
                      remote="wrdn"
