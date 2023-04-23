@@ -35,11 +35,11 @@
                      revision="GreenLight-non-oc" />
 
             <!-- Clang -->
-            <project path="prebuilts/clang/host/linux-x86/clang-r450784d"
+       <!-- <project path="prebuilts/clang/host/linux-x86/clang-r450784d"
                      name="clang-r450784d"
                      remote="cl"
                      revision="master"
-                     clone-depth="1"/>
+                     clone-depth="1"/> -->
 
        <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton"
                      name="proton-clang"
