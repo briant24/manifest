@@ -30,9 +30,9 @@
                      remote="wrdn"
                      revision="octavi" />
             <project path="kernel/asus/X01AD"
-                     name="android_kernel_asus_X01AD"
-                     remote="wrdn"
-                     revision="terece" />
+                     name="kernel_asus_X01AD"
+                     remote="z"
+                     revision="GreenLight-non-oc" />
 
             <!-- Clang -->
             <project path="prebuilts/clang/host/linux-x86/clang-r450784d"
