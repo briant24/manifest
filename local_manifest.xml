@@ -7,6 +7,8 @@
              fetch="https://github.com/Wrdn28" />
      <remote name="cl"
              fetch="https://gitlab.com/ImSurajxD" />
+     <remote name="ad"
+             fetch="https://gitlab.com/ahmedgaming371" />
      <remote name="hals"
              fetch="https://github.com/PixelExperience" />
      <remote name="z"
@@ -36,8 +38,8 @@
 
             <!-- Clang -->
             <project path="prebuilts/clang/host/linux-x86/clang-r450784d"
-                     name="clang-r450784d"
-                     remote="cl"
+                     name="clang13"
+                     remote="ad"
                      revision="master"
                      clone-depth="1"/>
 
@@ -46,5 +48,13 @@
                      remote="cl2"
                      revision="master"
                      clone-depth="1"/> -->
+
+
+       <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton"
+                     name="clang-r450784d"
+                     remote="cl"
+                     revision="master"
+                     clone-depth="1"/> -->
+
 
 </manifest>
