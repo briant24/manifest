@@ -11,10 +11,10 @@
      fetch="https://github.com/kdrag0n" />
 
      <!-- Trees -->
-     <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="zain" revision="alpha-13" />
-     <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="zain" revision="main" />
+     <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="alpha-13" />
+     <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="main" />
      <project path="kernel/asus/X01AD" name="Kernel_asus_X01AD" remote="zain" revision="GLKernel-non-oc" />
-       
+     
      <remove-project name="platform/hardware/google/camera"/>
      <project path="hardware/google/camera" name="X01AD_hardware_google_camera" remote="me" revision="master" />  
      
