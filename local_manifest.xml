@@ -9,8 +9,6 @@
      fetch="https://github.com/Assunzain" />
      <remote name="clang"
      fetch="https://github.com/kdrag0n" />
-     <remote name="rising"
-     fetch="https://github.com/RisingTechOSS" />
 
      <!-- Trees -->
      <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="alpha-13" />
@@ -18,7 +16,7 @@
      <project path="kernel/asus/X01AD" name="Kernel_asus_X01AD" remote="zain" revision="GLKernel-non-oc" />
      
      <remove-project name="platform/hardware/google/camera"/>
-     <project path="hardware/google/camera" name="android_hardware_google_camera" remote="rising" revision="thirteen" />  
+     <project path="hardware/google/camera" name="X01AD_hardware_google_camera" remote="me" revision="master" />  
      
      <!-- Clang -->
      <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
