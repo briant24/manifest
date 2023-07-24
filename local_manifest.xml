@@ -11,7 +11,7 @@
      fetch="https://github.com/kdrag0n" />
 
      <!-- Trees -->
-     <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="alpha-13" />
+     <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="lineage-20" />
      <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="octavi" />
      <project path="kernel/asus/X01AD" name="Kernel_asus_X01AD" remote="zain" revision="GLKernel-non-oc" />
      
