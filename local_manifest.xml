@@ -9,7 +9,12 @@
      fetch="https://github.com/Assunzain" />
      <remote name="clang"
      fetch="https://github.com/kdrag0n" />
+     <remote name="dn"
+     fetch="https://gitlab.com/hkprojection1" />
 
+     <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
+     <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="dn" revision="master" />
+     
      <!-- Trees -->
      <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="lineage-20" />
      <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="octavi" />
