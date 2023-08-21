@@ -17,7 +17,7 @@
      
      <!-- Trees -->
      <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="lineage-20" />
-     <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="octavi" />
+     <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="A13" />
      <project path="kernel/asus/X01AD" name="Kernel_asus_X01AD" remote="zain" revision="GLKernelSU-non-oc" />
      
      <!-- Clang -->
