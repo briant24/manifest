@@ -5,22 +5,17 @@
      <!-- Remote -->
      <remote name="me"
      fetch="https://github.com/Wrdn28" />
-     <remote name="zain"
-     fetch="https://github.com/Assunzain" />
-     <remote name="clang"
-     fetch="https://github.com/kdrag0n" />
      <remote name="dn"
      fetch="https://gitlab.com/hkprojection1" />
-
-     <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
-     <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="dn" revision="master" />
+     <remote name="amrito"
+     fetch="https://gitlab.com/Amritorock" />
      
      <!-- Trees -->
-     <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="lineage-20" />
+     <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="PE-13" />
      <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="A13" />
-     <project path="kernel/asus/X01AD" name="Kernel_asus_X01AD" remote="zain" revision="GLKernelSU-non-oc" />
+     <project path="kernel/asus/X01AD" name="android_kernel_asus_X01AD" remote="me" revision="PE-13" />
      
      <!-- Clang -->
-     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="amrito" revision="master" depth="1" />
 
 </manifest>
