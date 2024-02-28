@@ -12,7 +12,7 @@
      <remote name="cl"
      fetch="https://github.com/kdrag0n" />
      <remote name="los"
-     fetch="https://github.com/LineageOS"
+     fetch="https://github.com/LineageOS" />
 
      <!-- Replacement -->
      <remove-project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9"/>
