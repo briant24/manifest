@@ -21,9 +21,10 @@
      <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="los" revision="lineage-19.1" />
      
      <!-- Trees -->
-     <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="HZ-13" />
+     <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="hz-13" />
      <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="A13" />
      <project path="kernel/asus/X01AD" name="Kernel_asus_X01AD" remote="me" revision="Perf{KSU}" />
+     <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Viper" revision="V4A" />
 
      <!-- Clang -->
      <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="cl" revision="master" clone-depth="1" />
