@@ -5,11 +5,27 @@
      <!-- Remote -->
      <remote name="me"
      fetch="https://github.com/Wrdn28" />
+     <remote name="zain"
+     fetch="https://github.com/Assunzain" />
      <remote name="Viper"
      fetch="https://github.com/swiitch-OFF-Lab" />
+     <remote name="cl"
+     fetch="https://github.com/kdrag0n" />
+     <remote name="los"
+     fetch="https://github.com/LineageOS"
+
+     <!-- Replacement -->
+     <remove-project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9"/>
+     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="los" revision="lineage-19.1" />
+     <remove-project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9"/>
+     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="los" revision="lineage-19.1" />
      
      <!-- Trees -->
-     <project path="device/asus/X01AD" name="android_device_asus_X01AD-udc" remote="me" revision="HZ-14" />
-     <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD-udc" remote="me" revision="HZ-14" />
-     <project path="kernel/asus/X01AD" name="android_kernel_asus_X01AD" remote="me" revision="lineage-21-ksu" />
+     <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="HZ-13" />
+     <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="A13" />
+     <project path="kernel/asus/X01AD" name="Kernel_asus_X01AD" remote="me" revision="Perf{KSU}" />
+
+     <!-- Clang -->
+     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="cl" revision="master" clone-depth="1" />
+     
 </manifest>
