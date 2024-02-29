@@ -23,7 +23,7 @@
      <!-- Trees -->
      <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="hz-13" />
      <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="A13" />
-     <project path="kernel/asus/X01AD" name="Kernel_asus_X01AD" remote="me" revision="Perf{KSU}" />
+     <project path="kernel/asus/X01AD" name="Kernel_asus_X01AD" remote="zain" revision="Perf{KSU}" />
      <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Viper" revision="V4A" />
 
      <!-- Clang -->
