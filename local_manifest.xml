@@ -13,8 +13,6 @@
      fetch="https://github.com/kdrag0n" />
      <remote name="los"
      fetch="https://github.com/LineageOS" />
-
-     <remove-project name="platform/prebuilts/clang/host/linux-x86" />
      
      <!-- Replacement -->
      <remove-project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9"/>
