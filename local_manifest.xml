@@ -5,22 +5,19 @@
      <!-- Remote -->
      <remote name="me"
      fetch="https://github.com/Wrdn28" />
-     <remote name="zain"
-     fetch="https://github.com/Assunzain" />
-     <remote name="clang"
-     fetch="https://github.com/kdrag0n" />
-     <remote name="dn"
-     fetch="https://gitlab.com/hkprojection1" />
+     <remote name="ivan"
+     fetch="https://github.com/garry-rogov" />
+     <remote name="tejas"
+     fetch="https://github.com/tejas101k" />
+     <remote name="mipa"
+     fetch="https://github.com/mipa-ginkgo" />
 
-     <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
-     <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="dn" revision="master" />
-     
      <!-- Trees -->
-     <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="me" revision="lineage-20" />
-     <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="A13" />
-     <project path="kernel/asus/X01AD" name="Kernel_asus_X01AD" remote="zain" revision="GLKernelSU-non-oc" />
+     <project path="device/xiaomi/willow" name="android_device_asus_X01AD" remote="me" revision="14.0" />
+     <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" remote="ivan" revision="14" />
+     <project path="kernel/xiaomi/ginkgo" name="Cuh-kernel" remote="tejas" revision="fourteen" />
+     <!-- Micam -->
+     <project path="vendor/miuicamera" name="android_vendor_miuicamera" remote="me" revision="arrow-12.0-a3" />
+ 
      
-     <!-- Clang -->
-     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
-
 </manifest>
