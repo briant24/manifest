@@ -11,11 +11,11 @@
      fetch="https://github.com/tejas101k" />
      <remote name="mipa"
      fetch="https://github.com/mipa-ginkgo" />
-     <remote name="orion"
+     <remote name="oos"
      fetch="https://github.com/OrionOS-prjkt" />
 
      <remove-project name="android_frameworks_base" />
-     <project path="frameworks/base" name="android_frameworks_base" remote="orion" revision="14.0-wip-perf" />
+     <project path="frameworks/base" name="android_frameworks_base" remote="oos" revision="14.0-wip-perf" />
 
      <!-- Trees -->
      <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo-willow" remote="me" revision="14.0" />
