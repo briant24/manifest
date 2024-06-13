@@ -15,6 +15,10 @@
      fetch="https://github.com/OrionOS-prjkt" />
      <remote name="cl"
      fetch="https://gitlab.com/crdroidandroid" />
+
+     <remove-project name="android_frameworks_native" />
+     <project path="frameworks/native" name="android_frameworks_native" remote="me" revision="14.0" />
+     
      
      <!-- Trees -->
      <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo-willow" remote="me" revision="14.0" />
