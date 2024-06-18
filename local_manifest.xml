@@ -5,10 +5,15 @@
      <!-- Remote -->
      <remote name="me"
      fetch="https://github.com/briant24" />
+     <remote name="lineage"
+     fetch="https://github.com/LineageOS" />
      
      <!-- Trees -->
      <project path="device/xiaomi/stone" name="epos" remote="me" />
      <project path="vendor/xiaomi/stone" name="ppq" remote="me" />
      <project path="kernel/xiaomi/stone" name="onic" remote="me" />
+     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineage" />
+     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" />
+     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineage" />
  
 </manifest>
