@@ -9,11 +9,11 @@
      fetch="https://github.com/LineageOS" />
      
      <!-- Trees -->
-     <project path="device/xiaomi/stone" name="epos" remote="me" />
-     <project path="vendor/xiaomi/stone" name="ppq" remote="me" />
-     <project path="kernel/xiaomi/stone" name="onic" remote="me" />
-     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineage" />
-     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" />
-     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineage" />
+     <project path="device/xiaomi/stone" name="dt" remote="me" revision="fourteen"/>
+     <project path="vendor/xiaomi/stone" name="vendor" remote="me" revision="fourteen"/>
+     <project path="kernel/xiaomi/stone" name="kernel" remote="me" revision="fourteen"/>
+     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineage" revision="lineage-21"/>
+     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-21"/>
+     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineage" revision="lineage-21"/>
  
 </manifest>
