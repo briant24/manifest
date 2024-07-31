@@ -7,13 +7,17 @@
      fetch="https://github.com/briant24" />
      <remote name="lineage"
      fetch="https://github.com/LineageOS" />
-     
+     <remote name="cr"
+     fetch="https://github.com/crdroidandroid" />
+     <remote name="king"
+     fetch="https://github.com/muhammadrafiasyddiq" />
+
      <!-- Trees -->
-     <project path="device/xiaomi/stone" name="dt" remote="me" revision="fourteen"/>
-     <project path="vendor/xiaomi/stone" name="vendor" remote="me" revision="fourteen"/>
-     <project path="kernel/xiaomi/stone" name="kernel" remote="me" revision="fourteen"/>
+     <project path="device/xiaomi/stone" name="android_device_xiaomi_stone" remote="me" revision="fourteen"/>
+     <project path="vendor/xiaomi/stone" name="android_vendor_xiaomi_stone" remote="king" revision="fourteen"/>
+     <project path="kernel/xiaomi/stone" name="android_kernel_xiaomi_stone" remote="me"/>
      <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineage" revision="lineage-21"/>
-     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-21"/>
+     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="cr"/>
      <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineage" revision="lineage-21"/>
  
 </manifest>
