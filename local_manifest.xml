@@ -13,9 +13,9 @@
      fetch="https://github.com/muhammadrafiasyddiq" />
 
      <!-- Trees -->
-     <project path="device/xiaomi/stone" name="android_device_xiaomi_stone" remote="me" revision="fourteen"/>
-     <project path="vendor/xiaomi/stone" name="android_vendor_xiaomi_stone" remote="me" revision="fourteen"/>
-     <project path="kernel/xiaomi/stone" name="android_kernel_xiaomi_stone" remote="king" revision="fourteen"/>
+     <project path="device/xiaomi/rock" name="android_device_xiaomi_rock" remote="me" revision="fourteen"/>
+     <project path="vendor/xiaomi/rock" name="android_vendor_xiaomi_rock" remote="me" revision="fourteen"/>
+     <project path="kernel/xiaomi/rock" name="android_kernel_xiaomi_rock" remote="me" revision="fourteen"/>
      <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-21"/>
      <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="cr" revision="14.0"/>
      <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineage" revision="lineage-21"/>
