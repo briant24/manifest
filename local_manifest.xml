@@ -13,7 +13,7 @@
      fetch="https://github.com/muhammadrafiasyddiq" />
 
      <!-- Trees -->
-     <project path="device/xiaomi/rock" name="android_device_xiaomi_stone" remote="me" revision="fourteen"/>
+     <project path="device/xiaomi/rock" name="android_device_xiaomi_rock" remote="me" revision="fourteen"/>
      <project path="vendor/xiaomi/rock" name="android_vendor_xiaomi_rock" remote="me" revision="fourteen"/>
      <project path="kernel/xiaomi/rock" name="android_kernel_xiaomi_rock" remote="me" revision="fourteen"/>
      <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-21"/>
