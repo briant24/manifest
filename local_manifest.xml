@@ -19,5 +19,6 @@
      <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-21"/>
      <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="cr" revision="14.0"/>
      <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineage" revision="lineage-21"/>
+     <project path="vendor/lineage-priv/keys" name="keys" remote="me" revision="master" />
  
 </manifest>
