@@ -7,7 +7,7 @@
      fetch="https://github.com/briant24" />
 
      <!-- Trees -->
-     <project path="device/xiaomi/rock" name="twrp_tree_rock" remote="me" revision="fourteen"/>
+     <project path="device/xiaomi/rock" name="twrp_tree_rock" remote="me" revision="fox_12.1"/>
      <project path="vendor/lineage-priv/keys" name="keys" remote="me" revision="master" />
  
 </manifest>
